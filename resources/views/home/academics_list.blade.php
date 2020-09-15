@@ -1,0 +1,1 @@
+@extends('layout.app_course_list')
