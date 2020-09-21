@@ -69,47 +69,19 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="#">Pages</a>
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/admission">Admission</a></li>
+                                    <li><a href="/academics">Academics</a>
                                         <ul class="dropdown">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="admission.html">Home</a></li>
-                                            <li><a href="about-us.html">About Us</a></li>
-                                            <li><a href="course.html">Course</a></li>
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="elements.html">Elements</a></li>
+                                            <li><a href="index.html">Education</a></li>
+                                            <li><a href="admission.html">Commerce</a></li>
+                                            <li><a href="about-us.html">IT</a></li>
+                                            <li><a href="course.html">Senior High</a></li>
+                                            <li><a href="blog.html">Junior High</a></li>
+                                            <li><a href="contact.html">Grade School</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Mega Menu</a>
-                                        <div class="megamenu">
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="#">Home</a></li>
-                                                <li><a href="#">Services &amp; Features</a></li>
-                                                <li><a href="#">Accordions and tabs</a></li>
-                                                <li><a href="#">Menu ideas</a></li>
-                                                <li><a href="#">Students Gallery</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="#">Home</a></li>
-                                                <li><a href="#">Services &amp; Features</a></li>
-                                                <li><a href="#">Accordions and tabs</a></li>
-                                                <li><a href="#">Menu ideas</a></li>
-                                                <li><a href="#">Students Gallery</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="#">Home</a></li>
-                                                <li><a href="#">Services &amp; Features</a></li>
-                                                <li><a href="#">Accordions and tabs</a></li>
-                                                <li><a href="#">Menu ideas</a></li>
-                                                <li><a href="#">Students Gallery</a></li>
-                                            </ul>
-                                            <div class="single-mega cn-col-4">
-                                                <img src="img/bg-img/bg-1.jpg" alt="">
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li><a href="about-us.html">About Us</a></li>
+                                    <li><a href="/about">About Us</a></li>
                                     <li><a href="course.html">Course</a></li>
                                     <li><a href="contact.html">Contact</a></li>
                                 </ul>
@@ -135,7 +107,7 @@
         <div class="hero-slides owl-carousel">
 
             <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img" style="background-image: url(img/bg-img/bg-1.jpg);">
+            <div class="single-hero-slide bg-img" style="background-image: url(img/scc/f-1.jpg);">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
@@ -150,7 +122,7 @@
             </div>
 
             <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img" style="background-image: url(img/bg-img/bg-2.jpg);">
+            <div class="single-hero-slide bg-img" style="background-image: url(img/scc/f-2.jpg);">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
@@ -163,6 +135,39 @@
                     </div>
                 </div>
             </div>
+
+            
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide bg-img" style="background-image: url(img/scc/f-3.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <h4 data-animation="fadeInUp" data-delay="100ms">All the courses you need</h4>
+                                <h2 data-animation="fadeInUp" data-delay="400ms">Wellcome to our <br>Online University</h2>
+                                <a href="#" class="btn academy-btn" data-animation="fadeInUp" data-delay="700ms">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+              <!-- Single Hero Slide -->
+              <div class="single-hero-slide bg-img" style="background-image: url(img/scc/f-4.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <h4 data-animation="fadeInUp" data-delay="100ms">All the courses you need</h4>
+                                <h2 data-animation="fadeInUp" data-delay="400ms">Wellcome to our <br>Online University</h2>
+                                <a href="#" class="btn academy-btn" data-animation="fadeInUp" data-delay="700ms">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </section>
     <!-- ##### Hero Area End ##### -->

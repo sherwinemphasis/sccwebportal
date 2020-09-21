@@ -66,7 +66,7 @@
                             <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
                         </div>
 
-                         <!-- Nav Start -->
+                     <!-- Nav Start -->
                             <div class="classynav">
                             <ul>
                                 <li><a href="/news">News</a></li>
@@ -100,7 +100,15 @@
 </header>
 <!-- ##### Header Area End ##### -->
 
-@yield('list')
+    <!-- ##### Breadcumb Area Start ##### -->
+    <div class="breadcumb-area bg-img" style="background-image: url(img/bg-img/breadcumb.jpg);">
+        <div class="bradcumbContent">
+            <h2>About Us</h2>
+        </div>
+    </div>
+    <!-- ##### Breadcumb Area End ##### -->
+
+@yield('vission')
 
 <!-- ##### Footer Area Start ##### -->
 <footer class="footer-area">

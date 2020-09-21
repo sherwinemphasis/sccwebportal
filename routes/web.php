@@ -40,3 +40,14 @@ Route::get('/academicslist', function () {
     return view('home.academics_list');
 });
 
+Route::get('/about', function () {
+    return view('home.about');
+});
+
+Route::get('/news', function () {
+    return view('home.news');
+});
+
+Route::get('/services', function () {
+    return view('home.services');
+});

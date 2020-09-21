@@ -69,23 +69,21 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <ul>
-                                        <li><a href="/">Home</a></li>
-                                        <li><a href="/admission">Admission</a></li>
-                                        <li><a href="#">Pages</a>
-                                            <ul class="dropdown">
-                                                <li><a href="/">Home</a></li>
-                                                <li><a href="/admission">Admission</a></li>
-                                                <li><a href="/about">About Us</a></li>
-                                                <li><a href="/coursehtml">Course</a></li>
-                                                <li><a href="/blog">Blog</a></li>
-                                                <li><a href="/contact.html">Contact</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="about-us.html">About Us</a></li>
-                                        <li><a href="course.html">Course</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                    </ul>
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/admission">Admission</a></li>
+                                    <li><a href="/academics">Academics</a>
+                                        <ul class="dropdown">
+                                            <li><a href="index.html">Education</a></li>
+                                            <li><a href="admission.html">Commerce</a></li>
+                                            <li><a href="about-us.html">IT</a></li>
+                                            <li><a href="course.html">Senior High</a></li>
+                                            <li><a href="blog.html">Junior High</a></li>
+                                            <li><a href="contact.html">Grade School</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="about-us.html">About Us</a></li>
+                                    <li><a href="course.html">Course</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
                                 </ul>
                             </div>
                             <!-- Nav End -->
