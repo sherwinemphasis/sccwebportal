@@ -51,3 +51,31 @@ Route::get('/news', function () {
 Route::get('/services', function () {
     return view('home.services');
 });
+
+Route::get('/commerce', function () {
+    return view('academics.commerce');
+});
+
+Route::get('/criminology', function () {
+    return view('academics.criminology');
+});
+
+Route::get('/education', function () {
+    return view('academics.education');
+});
+
+Route::get('/gradeschool', function () {
+    return view('academics.gradeschool');
+});
+
+Route::get('/it', function () {
+    return view('academics.it');
+});
+
+Route::get('/juniorhigh', function () {
+    return view('academics.juniorhigh');
+});
+
+Route::get('/seniorhigh', function () {
+    return view('academics.seniorhigh');
+});

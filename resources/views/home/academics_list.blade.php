@@ -1,6 +1,6 @@
-@extends('layout.app_academics_list')
+@extends('layout.app2')
 
-@section('list')
+@section('content')
     
  <div class="testimonials-area section-padding-100 bg-img bg-overlay" style="background-image: url(img/bg-img/bg-2.jpg);">
     <div class="container">
@@ -117,7 +117,7 @@
                                 <li><p>GRADE 1</p></li>
                                 <li><p>KINDER 2</p></li>
                                 <li><p>KINDER 1</p></li>
-                                <li><p> DAY CARE</p></li>                     
+                                <li><p>DAY CARE</p></li>                     
                           </ul> 
                     </div>
                 </div>

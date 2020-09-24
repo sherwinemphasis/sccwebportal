@@ -1,6 +1,7 @@
-@extends('layout.app_academics')
+@extends('layout.app2')
 
-@section('breadcrumb')
+@section('content')
+    
     <!-- ##### Breadcumb Area Start ##### -->
     <div class="breadcumb-area bg-img" style="background-image: url(img/bg-img/breadcumb.jpg);">
         <div class="bradcumbContent">
@@ -8,9 +9,8 @@
         </div>
     </div>
     <!-- ##### Breadcumb Area End ##### -->
-@stop
 
-@section('academics')
+
 <!-- ##### Top Popular Courses Area Start ##### -->
 <div class="top-popular-courses-area mt-50 section-padding-100-70">
     <div class="container">
@@ -31,7 +31,7 @@
                         <h5><b>College of Commerce</b></h5>
                         <hr>
                         <p>Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod.</p>
-                        <a href="#" class="btn academy-btn btn-sm">See More</a>
+                        <a href="/commerce" class="btn academy-btn btn-sm">See More</a>
                     </div>
                     <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/pc-1.jpg);"></div>
                 </div>
@@ -44,7 +44,7 @@
                         <h5><b>College of Education</b></h5>
                         <hr>
                         <p>Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod.</p>
-                        <a href="#" class="btn academy-btn btn-sm">See More</a>
+                        <a href="/education" class="btn academy-btn btn-sm">See More</a>
                     </div>
                     <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/pc-2.jpg);"></div>
                 </div>
@@ -57,7 +57,7 @@
                         <h5><b>College of Information Technology</b></h5>
                         <hr>
                         <p>Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod.</p>
-                        <a href="#" class="btn academy-btn btn-sm">See More</a>
+                        <a href="/it" class="btn academy-btn btn-sm">See More</a>
                     </div>
                     <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/pc-3.jpg);"></div>
                 </div>
@@ -71,7 +71,7 @@
                         <h5><b>College of Criminology</b></h5>
                         <hr>
                         <p>Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod.</p>
-                        <a href="#" class="btn academy-btn btn-sm">See More</a>
+                        <a href="criminology" class="btn academy-btn btn-sm">See More</a>
                     </div>
                     <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/pc-3.jpg);"></div>
                 </div>
@@ -84,7 +84,7 @@
                         <h5><b>Senior High</b></h5>
                         <hr>
                         <p>Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod.</p>
-                        <a href="#" class="btn academy-btn btn-sm">See More</a>
+                        <a href="/seniorhigh" class="btn academy-btn btn-sm">See More</a>
                     </div>
                     <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/pc-4.jpg);"></div>
                 </div>
@@ -97,7 +97,7 @@
                         <h5><b>Junior High</b></h5>
                         <hr>
                         <p>Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod.</p>
-                        <a href="#" class="btn academy-btn btn-sm">See More</a>
+                        <a href="juniorhigh" class="btn academy-btn btn-sm">See More</a>
                     </div>
                     <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/pc-5.jpg);"></div>
                 </div>
@@ -110,7 +110,7 @@
                         <h5><b>Grade School</b></h5>
                         <hr>
                         <p>Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod.</p>
-                        <a href="#" class="btn academy-btn btn-sm">See More</a>
+                        <a href="/gradeschool" class="btn academy-btn btn-sm">See More</a>
                     </div>
                     <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/pc-6.jpg);"></div>
                 </div>
@@ -136,4 +136,4 @@
     </div>
 </div>
 <!-- ##### CTA Area End ##### -->
-@stop
+@endsection

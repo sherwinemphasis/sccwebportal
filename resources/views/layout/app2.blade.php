@@ -73,15 +73,17 @@
                                 <li><a href="/admission">Admission</a></li>
                                 <li><a href="/academics">Academics</a>
                                     <ul class="dropdown">
-                                        <li><a href="index.html">Education</a></li>
-                                        <li><a href="admission.html">Commerce</a></li>
-                                        <li><a href="about-us.html">IT</a></li>
-                                        <li><a href="course.html">Senior High</a></li>
-                                        <li><a href="blog.html">Junior High</a></li>
-                                        <li><a href="contact.html">Grade School</a></li>
+                                        <li><a href="/commerce">Commerce</a></li>
+                                        <li><a href="/education">Education</a></li>
+                                        <li><a href="/it">IT</a></li>
+                                        <li><a href="/criminology">Criminology</a></li>
+                                        <li><a href="/seniorhigh">Senior High</a></li>
+                                        <li><a href="/juniorhigh">Junior High</a></li>
+                                        <li><a href="/gradeschool">Grade School</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="/about">About</a></li>
+                                <li><a href="/services">Services</a></li>
                             </ul>
                         </div>
                             <!-- Nav End -->
@@ -100,15 +102,7 @@
 </header>
 <!-- ##### Header Area End ##### -->
 
-    <!-- ##### Breadcumb Area Start ##### -->
-    <div class="breadcumb-area bg-img" style="background-image: url(img/bg-img/breadcumb.jpg);">
-        <div class="bradcumbContent">
-            <h2>About Us</h2>
-        </div>
-    </div>
-    <!-- ##### Breadcumb Area End ##### -->
-
-@yield('vission')
+@yield('content')
 
 <!-- ##### Footer Area Start ##### -->
 <footer class="footer-area">

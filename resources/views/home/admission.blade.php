@@ -1,39 +1,13 @@
-@extends('layout.app_admission')
+@extends('layout.app2')
 
-@section('navbar')
-
-<div class="classynav">
-    <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/admission">Admission</a></li>
-        <li><a href="/academics">Academics</a>
-            <ul class="dropdown">
-                <li><a href="index.html">Education</a></li>
-                <li><a href="admission.html">Commerce</a></li>
-                <li><a href="about-us.html">IT</a></li>
-                <li><a href="course.html">Senior High</a></li>
-                <li><a href="blog.html">Junior High</a></li>
-                <li><a href="contact.html">Grade School</a></li>
-            </ul>
-        </li>
-        <li><a href="about-us.html">About Us</a></li>
-        <li><a href="course.html">Course</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</div>
-@endsection
-
-@section('breadcrumb')
-         
+@section('content')
+      
 <div class="breadcumb-area bg-img" style="background-image: url(img/bg-img/breadcumb.jpg);">
     <div class="bradcumbContent">
         <h2>Admission</h2>
     </div>
 </div>
 
-@stop
-
-@section('college_requirement')
     
 <!-- ##### Top Popular Courses Area Start ##### -->
 <div class="top-popular-courses-area mt-50 section-padding-100-70">
@@ -56,7 +30,7 @@
                         <p>Freshmen are excessive college graduates enrolling in St. Cecilia's College for the primary time. 
                             At the time of enrollment, a freshman should put up his excessive college document card 
                             (Form 138) duly licensed through the Principal, and the unique replica of his NSAT result.</p>
-                        <a href="/admissionlist" class="btn academy-btn btn-sm">See More</a>
+                        <a href="/adm" class="btn academy-btn btn-sm">See More</a>
                     </div>
                     <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/pc-1.jpg);"></div>
                 </div>
@@ -79,12 +53,10 @@
         </div>
     </div>
 </div>
-
-@stop
 <!-- ##### Top Popular Courses Area End ##### -->
 
 <!-- ##### CTA Area Start ##### -->
-@section('course_banner') 
+
 <div class="call-to-action-area">
     <div class="container">
         <div class="row">

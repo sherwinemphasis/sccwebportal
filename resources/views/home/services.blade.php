@@ -1,107 +1,93 @@
-@extends('layout.app_services')
+@extends('layout.app2')
+
+@section('content')
+
+<!-- ##### Breadcumb Area Start ##### -->
+  <div class="breadcumb-area bg-img" style="background-image: url(img/bg-img/breadcumb.jpg);">
+    <div class="bradcumbContent">
+        <h2>Services</h2>
+    </div>
+</div>
+<!-- ##### Breadcumb Area End ##### -->
+
+  <!-- ##### Blog Area Start ##### -->
+    <div class="blog-area mt-50 section-padding-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12">
+                    <div class="academy-blog-posts">
+                        <div class="row">
+
+                            <!-- Single Blog Start -->
+                            <div class="col-12">
+                                <div class="single-blog-post mb-50 wow fadeInUp" data-wow-delay="300ms">
+                                    <!-- Post Thumb -->
+                                    <div class="blog-post-thumb mb-50">
+                                        <img src="img/blog-img/1.jpg" alt="">
+                                    </div>
+                                    <!-- Post Title -->
+                                    <a href="#" class="post-title">Will Upload Soon!</a>
+                                    <!-- Post Meta -->
+                                    
+                                    <!-- Post Excerpt -->
+                                    <p>Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod. Vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est.</p>
+                                    <!-- Read More btn -->
+                                    <a href="#" class="btn academy-btn btn-sm mt-15">Read More</a>
+                                </div>
+                            </div>
+
+                            <!-- Single Blog Start -->
+                            <div class="col-12">
+                                <div class="single-blog-post mb-50 wow fadeInUp" data-wow-delay="400ms">
+                                    <!-- Post Thumb -->
+                                    <div class="blog-post-thumb mb-50">
+                                        <img src="img/blog-img/2.jpg" alt="">
+                                    </div>
+                                    <!-- Post Title -->
+                                    <a href="#" class="post-title">Will Upload Soon!</a>
+                                    <!-- Post Excerpt -->
+                                    <p>Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod. Vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est.</p>
+                                    <!-- Read More btn -->
+                                    <a href="#" class="btn academy-btn btn-sm mt-15">Read More</a>
+                                </div>
+                            </div>
+
+                            <!-- Single Blog Start -->
+                            <div class="col-12">
+                                <div class="single-blog-post mb-50 wow fadeInUp" data-wow-delay="500ms">
+                                    <!-- Post Thumb -->
+                                    
+                                    <!-- Post Title -->
+                                    <a href="#" class="post-title">Will Upload Soon</a>
+                                    <!-- Post Excerpt -->
+                                    <p>Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod. Vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est.</p>
+                                    <!-- Read More btn -->
+                                    <br>
+                                    <div class="blog-post-thumb mb-50">
+                                        <img src="img/blog-img/3.jpg" alt="">
+                                    </div>
+                                    
+                                    <a href="#" class="btn academy-btn btn-sm mt-15">Read More</a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
-@section('services')
-
-<br>
-<br>
-
- <div class="row">
-            <div class="col-12">
-                <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
-                    <span>St. Cecilia's College</span>
-                    <h3>List of Services</h3>
+                    <!-- Pagination Area Start -->
+                    <div class="academy-pagination-area wow fadeInUp" data-wow-delay="400ms">
+                        <nav>
+                            <ul class="pagination">
+                                <li class="page-item active"><a class="page-link" href="#">01</a></li>
+                                <li class="page-item"><a class="page-link" href="#">02</a></li>
+                                <li class="page-item"><a class="page-link" href="#">03</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </div>
-     <!-- ##### Top Popular Courses Details Area Start ##### -->
-    <div class="popular-course-details-area wow fadeInUp" data-wow-delay="10ms">
-        <div class="single-top-popular-course d-flex align-items-center flex-wrap">
-            <div class="popular-course-content">
-                <h5> E-LIBRARY </h5>
-                <hr>
-                <p>Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod. Morbi vel arcu gravida, iaculis lacus vel, posuere ipsum. Sed faucibus mauris vitae urna consectetur, sit amet maximus nisl sagittis. Ut in iaculis enim, et pulvinar mauris. Etiam tristique magna eget velit consectetur, a tincidunt velit dictum. Cras vulputate metus id felis ornare hendrerit. Maecenas sodales suscipit ipsum.</p>
-                <a href="#" class="btn academy-btn btn-sm mt-15">See More</a>
-            </div>
-            <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/bg-4.jpg);"></div>
-        </div>
     </div>
-    <!-- ##### Top Popular Courses Details Area End ##### -->
-    <br>
-    <br>
-    <!-- ##### Top Popular Courses Details Area Start ##### -->
-    <div class="popular-course-details-area wow fadeInUp" data-wow-delay="10ms">
-        <div class="single-top-popular-course d-flex align-items-center flex-wrap">
-             <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/bg-4.jpg);"></div>
-            <div class="popular-course-content">
-                <h5>STUDENT AFFAIRS ORGANIZATION (SAO)</h5>
-                <hr>
-                <p>Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod. Morbi vel arcu gravida, iaculis lacus vel, posuere ipsum. Sed faucibus mauris vitae urna consectetur, sit amet maximus nisl sagittis. Ut in iaculis enim, et pulvinar mauris. Etiam tristique magna eget velit consectetur, a tincidunt velit dictum. Cras vulputate metus id felis ornare hendrerit. Maecenas sodales suscipit ipsum.</p>
-                <a href="#" class="btn academy-btn btn-sm mt-15">See More</a>
-            </div>
-        </div>
-    </div>
-    <!-- ##### Top Popular Courses Details Area End ##### -->
-    <br>
-    <br>
-    <!-- ##### Top Popular Courses Details Area Start ##### -->
-    <div class="popular-course-details-area wow fadeInUp" data-wow-delay="10ms">
-        <div class="single-top-popular-course d-flex align-items-center flex-wrap">
-            <div class="popular-course-content">
-                <h5> GUIDANCE OFFICE </h5>
-                <hr>
-                <p>Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod. Morbi vel arcu gravida, iaculis lacus vel, posuere ipsum. Sed faucibus mauris vitae urna consectetur, sit amet maximus nisl sagittis. Ut in iaculis enim, et pulvinar mauris. Etiam tristique magna eget velit consectetur, a tincidunt velit dictum. Cras vulputate metus id felis ornare hendrerit. Maecenas sodales suscipit ipsum.</p>
-                <a href="#" class="btn academy-btn btn-sm mt-15">See More</a>
-            </div>
-            <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/bg-4.jpg);"></div>
-        </div>
-    </div>
-    <!-- ##### Top Popular Courses Details Area End ##### -->
-    <br>
-    <br>
-    <!-- ##### Top Popular Courses Details Area Start ##### -->
-    <div class="popular-course-details-area wow fadeInUp" data-wow-delay="10ms">
-        <div class="single-top-popular-course d-flex align-items-center flex-wrap">
-             <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/bg-4.jpg);"></div>
-            <div class="popular-course-content">
-                <h5> REGISTRAR OFFICE</h5>
-                <hr>
-                <p>Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod. Morbi vel arcu gravida, iaculis lacus vel, posuere ipsum. Sed faucibus mauris vitae urna consectetur, sit amet maximus nisl sagittis. Ut in iaculis enim, et pulvinar mauris. Etiam tristique magna eget velit consectetur, a tincidunt velit dictum. Cras vulputate metus id felis ornare hendrerit. Maecenas sodales suscipit ipsum.</p>
-                <a href="#" class="btn academy-btn btn-sm mt-15">See More</a>
-            </div>
-        </div>
-    </div>
-    <!-- ##### Top Popular Courses Details Area End ##### -->
-    <br>
-    <br>
-    <!-- ##### Top Popular Courses Details Area Start ##### -->
-    <div class="popular-course-details-area wow fadeInUp" data-wow-delay="10ms">
-        <div class="single-top-popular-course d-flex align-items-center flex-wrap">
-            <div class="popular-course-content">
-                <h5> CAMPUS MINISTRY </h5>
-                <hr>
-                <p>Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod. Morbi vel arcu gravida, iaculis lacus vel, posuere ipsum. Sed faucibus mauris vitae urna consectetur, sit amet maximus nisl sagittis. Ut in iaculis enim, et pulvinar mauris. Etiam tristique magna eget velit consectetur, a tincidunt velit dictum. Cras vulputate metus id felis ornare hendrerit. Maecenas sodales suscipit ipsum.</p>
-                <a href="#" class="btn academy-btn btn-sm mt-15">See More</a>
-            </div>
-            <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/bg-4.jpg);"></div>
-        </div>
-    </div>
-    <!-- ##### Top Popular Courses Details Area End ##### -->
-    <br>
-    <br>
-    <!-- ##### Top Popular Courses Details Area Start ##### -->
-    <div class="popular-course-details-area wow fadeInUp" data-wow-delay="10ms">
-        <div class="single-top-popular-course d-flex align-items-center flex-wrap">
-             <div class="popular-course-thumb bg-img" style="background-image: url(img/bg-img/bg-4.jpg);"></div>
-            <div class="popular-course-content">
-                <h5> PLAY GROUND</h5>
-                <hr>
-                <p>Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod. Morbi vel arcu gravida, iaculis lacus vel, posuere ipsum. Sed faucibus mauris vitae urna consectetur, sit amet maximus nisl sagittis. Ut in iaculis enim, et pulvinar mauris. Etiam tristique magna eget velit consectetur, a tincidunt velit dictum. Cras vulputate metus id felis ornare hendrerit. Maecenas sodales suscipit ipsum.</p>
-                <a href="#" class="btn academy-btn btn-sm mt-15">See More</a>
-            </div>
-        </div>
-    </div>
-    <!-- ##### Top Popular Courses Details Area End ##### -->
-<br>
-<br>
+    <!-- ##### Blog Area End ##### -->
 @stop

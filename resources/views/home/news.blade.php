@@ -1,6 +1,15 @@
-@extends('layout.app_news')
+@extends('layout.app2')
 
-@section('news')
+@section('content')
+
+<!-- ##### Breadcumb Area Start ##### -->
+  <div class="breadcumb-area bg-img" style="background-image: url(img/bg-img/breadcumb.jpg);">
+    <div class="bradcumbContent">
+        <h2>News</h2>
+    </div>
+</div>
+<!-- ##### Breadcumb Area End ##### -->
+
   <!-- ##### Blog Area Start ##### -->
     <div class="blog-area mt-50 section-padding-100">
         <div class="container">
@@ -47,15 +56,19 @@
                             <div class="col-12">
                                 <div class="single-blog-post mb-50 wow fadeInUp" data-wow-delay="500ms">
                                     <!-- Post Thumb -->
-                                    <div class="blog-post-thumb mb-50">
-                                        <img src="img/blog-img/3.jpg" alt="">
-                                    </div>
+                                    
                                     <!-- Post Title -->
                                     <a href="#" class="post-title">Will Upload Soon</a>
                                     <!-- Post Excerpt -->
                                     <p>Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod. Vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est.</p>
                                     <!-- Read More btn -->
+                                    <br>
+                                    <div class="blog-post-thumb mb-50">
+                                        <img src="img/blog-img/3.jpg" alt="">
+                                    </div>
+                                    
                                     <a href="#" class="btn academy-btn btn-sm mt-15">Read More</a>
+                                    
                                 </div>
                             </div>
                         </div>
